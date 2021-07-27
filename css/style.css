@@ -1,0 +1,170 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a:hover {
+    text-decoration: none;
+}
+
+/* ####################### header ######################  */
+header {
+    height: 100vh;
+    background: url(../images/cover.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 3;
+}
+.animate {
+    display: inline-block;
+    overflow: hidden;
+    margin: auto;
+    width: 140px;
+    margin-bottom: -10px;
+    animation: animate 1.5s steps(10) 1s infinite both;
+}
+@keyframes animate {
+    0% {width: 140px;}
+    10%{width: 105px;}
+    20% {width: 70px;}
+    30% {width: 35px;}
+    40% {width: 0px;}
+    45% {width: 0px;}
+    50% {width: 0px;}
+    60% {width: 35px;}
+    70% {width: 70px;}
+    80% {width: 105px;}
+    90% {width: 140px;}
+    100% {width: 140px;}
+}
+.heed {
+    height: 100%;
+    background-color: rgba(0, 0,0, 0.6);
+}
+.head p {
+    font-size: 30px;
+}
+
+.c-nav {
+    background-color: rgba(0,0,0,0.9);
+}
+
+
+/* ##################### About sec1 ####################  */
+
+
+/* ##################### service sec2 ####################  */
+.round {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    border: 10px solid #0078FF;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+}
+.round i {
+    font-size: 30px;
+}
+.round:hover {
+    border-color: #94C5FB;
+    background-color: #0078FF;
+}
+.round:hover i {
+    color: white;
+}
+/* ###################### counter ###########################  */
+.count {
+    background-image: url(../images/cover2.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.count div {
+    
+    background-color: rgba(0, 0, 255, 0.5);
+    padding: 60px;
+    text-align: center;
+    align-content: center;
+}
+.count::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: url();
+}
+.count-div {
+    width: 50px;
+    height: 50px;
+    border: 10px solid #CDE1F8;
+    border-radius: 50%;
+    color: white;
+    font-size: 30px;
+    align-content: center;
+   
+}
+
+/* ############################### portfolio ########################  */
+.cards:hover img {
+    transform: scale(1.3);
+    transition: all 0.5s ease-in-out;
+}
+.icon {
+    border: 3px solid;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+/* ###################### members ##############################  */
+.members {
+    background-image: url(../images/cover2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.members div {
+    background-color: rgba(0, 0, 255, 0.5);
+    width: 100%;
+    height: 100%;
+}
+/* ############################### blog ########################  */
+.card-foot img {
+    height: 50px;
+}
+/* ############################### contact ########################  */
+.cont-sec {
+    background: url(../images/cover2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+.cont-sec div {
+    background-color: rgba(0, 0, 255, 0.5);
+}
+.cust-btn {
+    border-top-left-radius: 2.5em;
+    border-top-right-radius: 2.5em;
+    border-bottom-right-radius: 2.5em;
+    border-bottom-left-radius: 2.5em;
+    padding: 10px 30px;
+}
+.cust-span {
+    width: 45px;
+    height: 45px;
+    border: 3px solid rgba(0, 0, 255, 0.7);
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+}
+.cust-span a {
+    font-size: 20px;
+}
+.cust-span:hover{
+    background-color:rgba(0, 0, 255, 0.7);
+}
+.cust-span:hover a {
+    color: white;
+
+}
