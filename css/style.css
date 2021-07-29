@@ -21,7 +21,7 @@ header {
     overflow: hidden;
     margin: auto;
     width: 140px;
-    margin-bottom: -10px;
+    /* margin-bottom: -10px; */
     animation: animate 1.5s steps(10) 1s infinite both;
 }
 @keyframes animate {
